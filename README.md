@@ -1,8 +1,8 @@
 <h1 align="center">🎧 Spotify Songs' Genre Segmentation</h1>
 
 <p align="center">
-  <b>Academic Project - B.E. Computer Science and Engineering</b><br>
-  Academic Year: <code>2024–2025</code> • Implemented using Python, Clustering Algorithms & Data Analysis
+  <b>Minor  Project - B.E. Computer Science and Engineering</b><br>
+  Academic Year: <code>2025–2026</code> • Implemented using Python, Clustering Algorithms & Data Analysis
 </p>
 
 ---
@@ -79,8 +79,8 @@ This project uses a Spotify song dataset containing:
 
 > **C R RENUKA**  
 > Bachelor of Engineering in Computer Science and Engineering (B.E. CSE)  
-> [Your Institution Name]  
-> Academic Year: 2024–2025
+>  Agni College of Technology
+> Academic Year: 2025–2026
 
 ---
 
