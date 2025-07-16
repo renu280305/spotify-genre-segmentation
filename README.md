@@ -1,74 +1,87 @@
-# spotify-genre-segmentation
-Minor project using clustering &amp; recommendation on Spotify data
+<h1 align="center">🎧 Spotify Songs' Genre Segmentation</h1>
 
-# 🎧 Spotify Songs' Genre Segmentation – Minor Project
-
-This project explores and segments songs from the Spotify dataset using **machine learning and clustering techniques**.  
-It simulates how Spotify might group similar tracks to improve recommendations.
+<p align="center">
+  <b>Academic Project - B.E. Computer Science and Engineering</b><br>
+  Academic Year: <code>2024–2025</code> • Implemented using Python, Clustering Algorithms & Data Analysis
+</p>
 
 ---
 
 ## 🧠 Objective
 
-> "To analyze musical features and group songs into meaningful clusters using KMeans, enabling personalized song recommendations."
+> 🎯 To explore and analyze the musical features of Spotify songs and segment them into clusters using unsupervised learning techniques.  
+> ✅ Build a basic content-based recommendation system based on song similarity and genre grouping.
 
 ---
 
-## 📁 Dataset
+## 📁 Dataset Description
 
-We used a Spotify dataset containing:
-- Playlist genre
-- Playlist name
-- Audio features: danceability, energy, valence, tempo, acousticness, etc.
+This project uses a Spotify song dataset containing:
+- 🎶 `playlist_genre`  
+- 📜 `playlist_name`  
+- 🎛️ Audio-based features:  
+  - `danceability`  
+  - `energy`  
+  - `acousticness`  
+  - `instrumentalness`  
+  - `liveness`  
+  - `valence`  
+  - `tempo`
 
 ---
 
-## 🔍 Features Used
+## 🛠 Technologies and Libraries Used
 
-- `danceability`
-- `energy`
-- `acousticness`
-- `instrumentalness`
-- `liveness`
-- `valence`
-- `tempo`
+| Tool/Library      | Purpose                          |
+|-------------------|----------------------------------|
+| Python            | Core programming language        |
+| Jupyter Notebook  | Interactive development platform |
+| pandas, numpy     | Data analysis and manipulation   |
+| matplotlib, seaborn | Data visualization            |
+| scikit-learn      | KMeans clustering, scaling, PCA  |
 
 ---
 
 ## 📊 Project Workflow
 
-### 1. **Data Preprocessing**
-- Removed duplicates and nulls
-- Encoded categorical columns
+### 🔹 Step 1: Data Preprocessing
+- Removed missing values and duplicates
+- Encoded categorical variables (genres and playlist names)
 
-### 2. **Exploratory Data Analysis**
-- Genre distribution
-- Playlist name frequency
-- Distributions of audio features
+### 🔹 Step 2: Exploratory Data Analysis
+- Plotted genre and playlist distributions
+- Visualized feature distributions and correlations
 
-### 3. **Correlation Matrix**
-- Heatmap of audio feature relationships
+### 🔹 Step 3: Clustering with KMeans
+- Scaled selected features using StandardScaler
+- Applied KMeans clustering with 5 clusters
+- Visualized song clusters using PCA (2D)
 
-### 4. **Clustering**
-- KMeans clustering on audio features
-- PCA for 2D cluster visualization
+### 🔹 Step 4: Cluster Analysis
+- Compared clusters against genres and playlist names
+- Filtered top playlist names to remove overlap
 
-### 5. **Cluster Insights**
-- Cluster vs Genre
-- Cluster vs Playlist Name (Top 10 + Others)
-
-### 6. **Recommendation System**
-- Recommends songs based on similar cluster and genre
+### 🔹 Step 5: Recommendation Function
+- Created a function to recommend songs from the same cluster and genre
+- Based on input song index
 
 ---
 
-## 🛠 Tech Stack
+## 📂 Project Notebook
 
-| Tool | Use |
-|------|-----|
-| Python | Programming |
-| Jupyter Notebook | Development |
-| pandas, numpy | Data processing |
-| seaborn, matplotlib | Visualizations |
-| scikit-learn | Clustering, PCA |
+📄 Click below to view the complete notebook containing code, outputs, visualizations, and clustering logic:
 
+👉 [**Open Full Notebook**](./spotify_project.ipynb)
+
+---
+
+## 👤 Author
+
+> **C R RENUKA**  
+> Bachelor of Engineering in Computer Science and Engineering (B.E. CSE)  
+> [Your Institution Name]  
+> Academic Year: 2024–2025
+
+---
+
+<p align="center">⭐ If you found this project useful, feel free to star the repository!</p>
